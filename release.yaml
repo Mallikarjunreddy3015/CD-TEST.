@@ -3,7 +3,7 @@ steps:
   args: ['install']
 
 - name: 'gcr.io/cloud-builders/npm'
-  args: ['run', 'predeploy']
+  args: ['run', 'build']
 
 - name: 'gcr.io/cloud-builders/npm'
   args: ['run', 'start']
